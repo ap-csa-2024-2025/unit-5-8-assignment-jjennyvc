@@ -4,13 +4,18 @@ public class Dog
   private int ID;
   private static int numDogs = 0;
 
-  // Non-default Dog constructor
+  public void setName(String iName)
+  {
+    name = iName;
+  }
 
-  // Default Dog constructor
+  public String getName()
+  {
+    return name;
+  }
 
-  // Setters - instance variables only
-
-  // Getters - instance variables only
-
-  // method getNumDogs
+  public void setID(int ID)
+  {
+    this.ID = ID;
+  }
 }
